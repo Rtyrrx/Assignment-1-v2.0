@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment #1 — HTML Basics</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#info">Info</a>
+            <a href="#about">About Me</a>
+            <a href="#images">Albums</a>
+            <a href="#links">Links</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="menu-icon" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav class="menu" id="menu">
+        <a href="#info">Info</a>
+        <a href="#about">About</a>
+        <a href="#images">Albums</a>
+        <a href="#links">Links</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="page">
+
+        <section-c class="head section" id="hero" class="section">
+            <h1>Assignment #1</h1>
+            <img src="C:\Users\Админ\Downloads\Planetary Folklore.gif" alt="">
+        </section-c>
+
+        <section id="info" class="section">
+            <h2>Student Info</h2>
+            <p><strong>Name:</strong> Bek Madias<br>
+                <strong>Group:</strong> SE_2430<br>
+                <strong>Course:</strong> WEB Technologies 1 (Front End)<br>
+                <strong>Instructor:</strong> Assel Alimzhan<br>
+                <strong>Assignment:</strong> #1 - HTML Basics
+            </p>
+        </section>
+        <section class="wrapper"></section>
+
+        <section id="about" class=" about-section">
+            <div class="about-container">
+                <div class="about-text-box">
+                    <span class="sm">about</span>
+                    <p class="about-text">
+                        <span style="opacity: 0;">##</span>I am <span class="highlight">Madias</span>, a <span
+                            class="highlight">dedicated</span> computer science student from Kazakhstan, obsessed with
+                        <span class="highlight-strong">programming</span>, game development, and building interactive
+                        digital experiences. I love blending <span class="highlight">creativity</span> with <span
+                            class="highlight-strong">technology</span>, making apps and games that are both functional
+                        and visually engaging. I enjoy learning languages, exploring Japanese culture, and constantly
+                        improving my skills. My mission is to create <span class="highlight">impactful</span> digital
+                        projects that inspire, educate, and leave a lasting impression.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <section class="wrapper"></section>
+
+        <section id="about" class=" about-section">
+            <div class="about-container">
+                <div class="about-text-box">
+                    <p class="about-text">
+                        I focus on merging <span class="highlight">innovation</span> and <span
+                            class="highlight-strong">technical mastery</span>, turning ideas into reality. Every project
+                        reflects my <span class="highlight">curiosity</span>, drive, and desire to make digital
+                        experiences meaningful and enjoyable.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="wrapper"></section>
+
+        <section-b id="hobbies" class="section">
+            <h2>Hobbies</h2>
+            <ol class="hobbies-list">
+                <li>Exploring GitHub projects</li>
+                <li>Collecting ideas on Pinterest</li>
+                <li>Watching YouTube documentaries </li>
+                <li>Chilling with playlists on Spotify </li>
+                <li>Front-end coding</li>
+            </ol>
+        </section-b>
+
+        <section class="wrapper"></section>
+
+        <section-b id="websites" class="section">
+            <h2>Websites</h2>
+            <ul class="websites-list">
+                <li>Official Cigarettes After Sex Site</li>
+                <li>GitHub</li>
+                <li>Pinterest</li>
+                <li>YouTube</li>
+                <li>Spotify</li>
+            </ul>
+        </section-b> -->
+
+
+        <section-c id="images" class="images-section">
+            <div class="images-row">
+                <img src="images\669003328c84d4ebb0e0198a_Xs_3000x (2) (1)-p-500.jpg" alt="Xs" class="album"
+                    data-audio="audio\Cigarettes After Sex - X's.mp3">
+                <img src="images\656f87b6f67dbae6eb86ac73_Pistol.jpg" alt="Pistol" class="album"
+                    data-audio="audio\Cigarettes_After_Sex_-_Pistol_75340351.mp3">
+                <img src="images\661df2edd2c23d9ead5a2ed0_Dark_Vacay_3000x-p-500.jpg" alt="Dark Vacay" class="album"
+                    data-audio="audio\Cigarettes_After_Sex_-_Dark_Vacay_77786508.mp3">
+                <!-- <img src="C:\Users\Админ\Downloads\65819d469e625b7cbece29d6_MPS single art (Orphan Language by Barbara Astman).jpg"
+                    alt="Orphan Language"> -->
+                <img src="images\64da1cab9c479466aa9a28c8_Heavenly (1).jpg" alt="Heavenly" class="album"
+                    data-audio="audio\Cigarettes_After_Sex_-_Heavenly_66434317.mp3">
+                <img src="images\665e1ff3a1255acfc7b7f7bb_447591057_1116763049583706_8546840369065191501_n-p-500.jpg"
+                    alt="CAS" class="album" data-audio="audio\Cigarettes_After_Sex_-_Baby_Blue_Movie_77985184.mp3">
+                <!--<img src="C:\Users\Админ\Downloads\657046caf7ba342d201c8b82_Cry.jpg" alt="Cry">
+                <img src="C:\Users\Админ\Downloads\656f879c4c22fe49879310b8_Bubblegum.jpg" alt="Bubblegum">
+                <img src="C:\Users\Админ\Downloads\65ddd57c62c5d739e1c6156a_CAS-ART-1600 (1)-p-500.jpg" alt="CAS Art">
+                <img src="C:\Users\Админ\Downloads\656f87c5583efa11486a7679_Youre+All+I+Want.jpg"
+                    alt="Youre All I Want">
+                <img src="C:\Users\Админ\Downloads\656f87d0581e43cb13353ed4_Falling+In+Love.jpg" alt="Falling In Love">
+                <img src="C:\Users\Админ\Downloads\6582c204348e5c81ca609d67_Apocalypse-p-500.jpg" alt="Apocalypse">
+                <img src="C:\Users\Админ\Downloads\6582c267729189e29e133756_Cigarettes+After+Sex-p-500.jpg"
+                    alt="Cigarettes">
+                <img src="C:\Users\Админ\Downloads\6582b07e348e5c81ca53c3d4_EP+I.-p-500.jpg" alt="EP I.">
+                <img src="C:\Users\Админ\Downloads\6582b0a97316609209b9ac1e_Affection-p-500.jpg" alt="Affection">
+                <img src="C:\Users\Админ\Downloads\64da19983ee1e9346baae395_K.jpg" alt="K">
+                <img src="C:\Users\Админ\Downloads\6582c2ab3553da315057921f_Crush-p-500.jpg" alt="Crush">
+                <img src="C:\Users\Админ\Downloads\6582c2457e3e09519ce26d2c_Each+Time+You+Fall+In+Love-p-500.jpg"
+                    alt="Each Time You Fall In Love">
+                <img src="C:\Users\Админ\Downloads\6582c28aa45c52849ac8aaa5_Sweet-p-500.jpg" alt="Sweet">
+                <img src="C:\Users\Админ\Downloads\64da1c6b5ffe29513027f945_Neon-Moon.jpg" alt="Neon Moon"> -->
+            </div>
+        </section-c>
+
+        <section id="links" class="section">
+            <h2>Links</h2>
+            <div class="links">
+                <a href="https://www.cigarettesaftersex.com/" target="_blank">
+                    Official Cigarettes After Sex Site <i data-lucide="arrow-up-right"></i>
+                </a>
+                <a href="https://github.com/" target="_blank">
+                    GitHub <i data-lucide="arrow-up-right"></i>
+                </a>
+                <a href="https://www.pinterest.com/" target="_blank">
+                    Pinterest <i data-lucide="arrow-up-right"></i>
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    YouTube <i data-lucide="arrow-up-right"></i>
+                </a>
+                <a href="https://www.spotify.com/" target="_blank">
+                    Spotify <i data-lucide="arrow-up-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="schedule" class="section-right">
+            <h2>Schedule</h2>
+            <table class="schedules">
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Software Design Patterns (Lecture)</td>
+                    <td>Monday</td>
+                    <td>14:00 - 15:50</td>
+                </tr>
+                <tr>
+                    <td>WEB Technologies 1 (Practice)</td>
+                    <td>Monday</td>
+                    <td>16:00 - 17:50</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems (Practice)</td>
+                    <td>Tuesday</td>
+                    <td>08:00 - 09:50</td>
+                </tr>
+                <tr>
+                    <td>Russian Language 1</td>
+                    <td>Tuesday</td>
+                    <td>16:00 - 17:50</td>
+                </tr>
+                <tr>
+                    <td>Software Design Patterns (Practice)</td>
+                    <td>Tuesday</td>
+                    <td>18:00 - 18:50</td>
+                </tr>
+                <tr>
+                    <td>Design & Analysis of Algorithms (Lecture)</td>
+                    <td>Wednesday</td>
+                    <td>14:00 - 15:50</td>
+                </tr>
+                <tr>
+                    <td>WEB Technologies 1 (Practice)</td>
+                    <td>Wednesday</td>
+                    <td>16:00 - 16:50</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems (Practice)</td>
+                    <td>Thurday</td>
+                    <td>08:00 - 08:50</td>
+                </tr>
+                <tr>
+                    <td>Design & Analysis of Algorithms (Practice)</td>
+                    <td>Thursday</td>
+                    <td>18:00 - 19:50</td>
+                </tr>
+                <tr>
+                    <td>Software Design Patterns (Practice)</td>
+                    <td>Friday</td>
+                    <td>12:00 - 13:50</td>
+                </tr>
+                <tr>
+                    <td>Design & Analysis of Algorithms (Practice)</td>
+                    <td>Friday</td>
+                    <td>15:00 - 15:50</td>
+                </tr>
+
+            </table>
+        </section>
+
+        <section id="schedule" class="section-right">
+            <h2>Workout Plan</h2>
+            <table class="schedules">
+                <tr>
+                    <th>Muscle Group</th>
+                    <th>Day</th>
+                    <th>Best Time</th>
+                </tr>
+                <tr>
+                    <td><b>Push</b> (Chest + Shoulders + Biceps)</td>
+                    <td><b>Monday</b></td>
+                    <td><b>17:30 – 21:30</b></td>
+                </tr>
+                <tr>
+                    <td><b>Legs</b> (Quads, Hamstrings, Glutes, Calves)</td>
+                    <td><b>Tuesday</b></td>
+                    <td><b>11:00 – 15:00</b></td>
+                </tr>
+                <tr>
+                    <td><b>Pull</b> (Back + Triceps)</td>
+                    <td><b>Wednesday</b></td>
+                    <td><b>09:00 – 13:00</b></td>
+                </tr>
+                <tr>
+                    <td><b>REST</b></td>
+                    <td><b>Thursday</b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>Push</b> (Chest + Shoulders + Biceps)</td>
+                    <td><b>Friday</b></td>
+                    <td><b>16:30 – 21:00</b></td>
+                </tr>
+                <tr>
+                    <td><b>Legs</b> (Quads, Hamstrings, Glutes, Calves)</td>
+                    <td><b>Saturday</b></td>
+                    <td><b>12:00 – 16:00</b></td>
+                </tr>
+                <tr>
+                    <td><b>Pull</b> (Back + Triceps)</td>
+                    <td><b>Sunday</b></td>
+                    <td><b>14:00 – 18:00</b></td>
+                </tr>
+            </table>
+        </section>
+
+        <script>
+            lucide.createIcons();
+        </script>
+
+        <section class="contact-section" id="contact" class="section">
+            <h1 class="contact-heading">Contact me</h1>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>wwertyusklye@gmail.com</p>
+                    <p>+7(771)521-1519</p>
+                    <p>Bokeykhan Street 25<br>Astana, 030000</p>
+                </div>
+
+                <form class="contact-form">
+                    <h2><strong>Name(required)</strong></h2>
+                    <div class="name-row">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" name="first-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" name="last-name" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email (required)</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message (required)</label>
+                        <textarea name="message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer>
+        © 2025 Bek Madias — About me
+    </footer>
+
+</body>
+
+</html>
